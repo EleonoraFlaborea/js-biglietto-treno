@@ -29,4 +29,14 @@
     13-Modificare il contenuto
 */
 
+console.log('JS OK');
+
+// PUNTO 1-2-3
+const ride = prompt ('Quanti kilometri hai fatto?');
+console.log(ride);
+
+// PUNTO 4-5-6
+const age = prompt ('Quanti anni hai?');
+console.log(age);
+
 
