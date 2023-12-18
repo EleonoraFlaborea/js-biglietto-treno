@@ -40,14 +40,22 @@ const age = prompt ('Quanti anni hai?','25');
 console.log(age);
 
 // PUNTO 7
-const mul = parseInt(ride) * (0.21)
+const mul = parseInt(ride) * (0.21);
 console.log(mul);
 
+// PUNTO 8-9-10-11
+let discount20 = (mul/100) * 80;
 
+let discount40 = (mul/100) * 60;
 
+if (age<18){ 
+     console.log("l'utente è minorenne, il prezzo è:" + discount20.toFixed(2));
+} else if(age>65){
+    console.log("l'utente è senior il prezzo è:" + discount40.toFixed(2));
+} else if(age>=18 && age<=65){
+    console.log("l'utente non ha sconto");
+}
 
-// PUNTO 8-9-10
-// PUNTO 11
 // PUNTO 12-13
 
 
