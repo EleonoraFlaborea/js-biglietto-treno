@@ -32,11 +32,23 @@
 console.log('JS OK');
 
 // PUNTO 1-2-3
-const ride = prompt ('Quanti kilometri hai fatto?');
+const ride = prompt ('Quanti kilometri hai fatto?','10');
 console.log(ride);
 
 // PUNTO 4-5-6
-const age = prompt ('Quanti anni hai?');
+const age = prompt ('Quanti anni hai?','25');
 console.log(age);
+
+// PUNTO 7
+const mul = parseInt(ride) * (0.21)
+console.log(mul);
+
+
+
+
+// PUNTO 8-9-10
+// PUNTO 11
+// PUNTO 12-13
+
 
 
